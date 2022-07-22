@@ -11,7 +11,7 @@ Scanner sc= new Scanner(System.in);
 		System.out.println("Please enter num2 : ");
 		int b= sc.nextInt();
 		
-		System.out.println("Please select the operation to be performed \n1.Addition\n2.Subtraction\n3.Division\n4.Multiplication");
+		System.out.println("Please select the operation to be performed \n1.Addition\n2.Subtraction\n3.Division\n4.Multiplication\n5.Percentage");
 		
 		int option;
 		System.out.println("Please enter choice here: ");
@@ -65,6 +65,14 @@ Scanner sc= new Scanner(System.in);
 			float res= a*b;
 			System.out.println("Result : "+res);
 			}}
+		case 5: {
+			if(option==5){
+			System.out.println("Percentage:");
+			float a1 = a%100;
+			float b1 = b%100;
+			System.out.println("a%: "+a1+" b%: "+b1);
+			}}
+
 		
 		 default:{
 			 System.out.println("Please enter valid numbers");
